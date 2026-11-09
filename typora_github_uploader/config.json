@@ -1,0 +1,25 @@
+{
+  "github": {
+    "owner": "kaiross-code",
+    "repository": "ImagesSpace",
+    "branch": "main",
+    "base_directory": "blog-images",
+    "token_env": "GITHUB_TOKEN"
+  },
+  "local": {
+    "backup_directory": "D:\\Home\\Pictures\\ImagesSpace"
+  },
+  "upload": {
+    "max_retries": 5,
+    "timeout_seconds": 30,
+    "untitled_article_name": "untitled",
+    "supported_extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".gif",
+      ".webp",
+      ".svg"
+    ]
+  }
+}
